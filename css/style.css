@@ -1,0 +1,394 @@
+body {
+    background-color: white;
+}
+
+#index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+
+/*LISTAR CUENTO*/
+#imghome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width:90%;
+    height:200px;;
+}
+
+#idh3 {
+    text-align: center;
+    color: skyblue;
+    max-width: 90%;
+}
+
+#idh4 {
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+
+#idh4 p {
+    color: black;
+    font-size: 16px;
+    max-width: 90%;
+}
+
+
+/*#container2 {
+    color: #f36523;
+}*/
+
+#estilofooter {
+    background-color: #fcb913;
+    color: white;
+}
+
+
+/*BOTONES CENTRALES INDEX*/
+
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: white;
+    background: #fca213;
+}
+
+/*Inicio Pagina Crear Cuento*/
+
+.crearCuento {
+    background-color: #ffe001;
+}
+
+/*slide crear cuento*/
+
+#jquery-script-menu {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 5px solid #316594;
+    background: #fff;
+    -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    z-index: 999999;
+    padding: 10px 0;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+.jquery-script-center {
+    width: 960px;
+    margin: 0 auto;
+}
+.jquery-script-center ul {
+    width: 212px;
+    float:left;
+    line-height:45px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+.jquery-script-ads {
+    width: 728px;
+    height:90px;
+    float:right;
+}
+.jquery-script-clear {
+    clear:both;
+    height:0;
+}
+
+.item{ 
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner{
+    width: 100%;
+    height: 700px;
+}
+    
+/*leer cuento*/
+.descripcion, .credito{
+    text-align: center;
+    font-size: 24px;
+}
+
+#reproducir, #reproducir img{
+    background-color: transparent;
+    text-align: center;
+    width: 150px;
+    height: 130px;
+    border: 0;
+    
+}
+
+#btnLista{
+    
+    background-color: transparent;
+    border: 0;
+	cursor:pointer;
+	font-weight:bold;
+	padding:0.2em 0;
+	outline:none;
+}
+.escenas{
+   
+    text-align: center;
+}
+
+.escenas audio{
+    z-index: 0;
+}
+
+.escenas img{
+    width: 98%;
+    height: 100%;
+    padding: 0;
+    float: left;
+}
+
+.myCarousel img{ 
+    width: 100px;
+    height: 100px;
+}
+
+.nav-dots {
+    margin-top: 20px;
+	width: 100%;
+	
+	height: 120px;
+	
+	text-align: center;
+}
+
+.hojas{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.nav-dot {
+	/*estilo para label*/
+	margin: 4px 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: orange;
+}
+
+.hojas:hover {
+	cursor: pointer;
+	opacity: 0;
+}
+.botonesHojas{
+    display: inline-block
+}
+.nHoja,.bHoja{margin-top: 20px;}
+.bActividad{margin-top: 20px;}
+.nHoja img,.bHoja img{width: 50px;height: 50px;}
+
+.bActividad img{width: 50px;height: 50px;}
+/*fin slide crear cuento*/
+
+/*Crear Cuento Funciones*/
+
+
+.nombreCuento{ text-align: center}
+
+.nombreCuento input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/*Fin slide Funciones*/
+
+/*Subir imagenes*/
+
+.messages{
+        float: left;
+        font-family: sans-serif;
+        display: none;
+}
+.info{
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.before{
+    padding: 10px;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.success{
+    padding: 10px;
+    border-radius: 10px;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.error{
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.panel-body{
+    height: 30%;
+}
+
+.fondoEscenas .fondoPreguntas{
+    background: aquamarine;
+    height: 100%;
+}
+
+.fondoEscenas img{
+    padding: 5px;
+    width: 33%;
+    height: 100%;
+}
+.fondoPreguntas img{
+    padding: 15px;
+    width: 40%;
+    height: 100%;
+}
+
+span{font-size: 14px;
+    margin: 0px auto;
+    background-color: greenyellow;
+}
+/**/
+
+audio{    
+    width: 90%;
+}
+audio source{
+    background: red;
+}
+
+/*Fin Pagina Crear Cuento*/
+#mainNav{
+    background-color:  #0081eb;   
+}
+/* pauul */
+.cuentoTitulo{
+    color: #fed136;
+    text-align: center;
+}
+
+/*ARRASTRAR IMAGENES*/
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+
+.portfolio-item{
+    background-color: bisque;
+    margin: 17px;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 30%;
+}
+#estilofooter2 {
+    background-color: #0081eb;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+#slabel{
+ color: darkslateblue;
+}
+
+/*ACTIVIDADES*/
+#actividades{
+    background-color: aqua;
+}
+.fondoP1{
+    align-content: center;
+    text-align: center;
+    background-color: #41dfff;
+    height: 150px;
+    width: 150px;
+}
+.fondoP2{
+    align-content: center;
+    text-align: center;
+    background-color: #41dfff;
+    height: 150px;
+    width: 150px;
+}
+.fondoP1 img{
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+}
+.fondoP2 img{
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+}
+#btnGuardarP2, #btnGuardarP1{
+    background-color: greenyellow;
+    font-size: 25px;
+    width: 180px;
+    border-radius: 3px;
+}
+#contnosotros{
+    background-color: white;
+    
+    color: dodgerblue;
+    text-align: center;
+    width: 100%;
+}
+#imgNosot{
+    width: 100%;
+    
+}
+#h3n{
+    color: #fed136;
+}
+#h3n1{
+    color: #fed136;
+}
+#h3n2{
+    color: #fed136;
+}
